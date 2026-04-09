@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book an Appointment – D’ Stress Zone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h2>D’ Stress Zone</h2>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Our Services</a>
+    <a href="psychologists.html">Meet the Psychologists</a>
+    <a href="appointment.html">Book an Appointment</a>
+    <a href="resources.html">Mental Health Resources</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+</nav>
+
+<section class="appointment-hero">
+  <h1>Book an Appointment</h1>
+  <p>Schedule your session with one of our qualified psychologists</p>
+</section>
+
+<section class="appointment-form-section">
+  <form class="appointment-form">
+    <h2>Appointment Details</h2>
+    
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+
+    <label for="psychologist">Select Psychologist</label>
+    <select id="psychologist" name="psychologist" required>
+      <option value="">Choose...</option>
+      <option value="dr_smith">Dr. Jane Smith</option>
+      <option value="dr_johnson">Dr. Mark Johnson</option>
+      <option value="dr_lee">Dr. Emily Lee</option>
+    </select>
+
+    <label for="date">Preferred Date</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Preferred Time</label>
+    <input type="time" id="time" name="time" required>
+
+    <button type="submit">Book Appointment</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 D’ Stress Zone Psychological Services</p>
+</footer>
+
+</body>
+</html>
